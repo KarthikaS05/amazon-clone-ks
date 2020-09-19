@@ -1,0 +1,50 @@
+.home {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.home_row {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.home__img1 {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+   
+  
+}
+
+.home__img2 {
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+  
+}
+
+.home__image3 {
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom, rgb(174, 213, 224),rgba(76, 195, 211, 0));
+  
+}
+
+.carousel-status, .carousel .control-dots, .thumbs{
+    display: none !important;
+}
+
+.carousel .slide {
+    background: none !important;
+   
+}
+
